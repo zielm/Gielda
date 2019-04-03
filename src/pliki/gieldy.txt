@@ -1,0 +1,123 @@
+Austria - Wiener Börse
+Belgium - Euronext Brussels
+Finland - Helsinki Stock Exchange
+Finland - Privanet Capital
+France - Euronext Paris
+France - MATIF
+Germany - Bayerische Börse
+Germany - Börse Berlin
+Germany - Börse Hamburg & Hannover
+Germany - Börse Stuttgart
+Germany - Deutsche Börse Group
+Germany - Eurex
+Greece - Athens Stock Exchange
+Iceland - Iceland Stock Exchange
+Ireland - Irish Stock Exchange
+Italy - Borsa Italiana
+Malta - Malta Stock Exchange
+Netherlands - Euronext Amsterdam
+Norway - Oslo Stock Exchange
+Portugal - Euronext Lisbon
+Portugal - OPEX
+Spain - Bolsa de Bilbao
+Spain - Bolsa de Madrid
+Spain - Bolsa de Valencia
+Spain - Borsa de Barcelona
+Sweden - Nordic Growth Market
+Sweden - Stockholm Stock Exchange
+Switzerland - Berne eXchange
+Switzerland - SIX Swiss Exchange
+UK - London Stock Exchange
+Albania - Tirana Stock Exchange
+Armenia - NASDAQ OMX Armenia
+Bulgaria - Bulgarian Stock Exchange
+Croatia - Zagreb Stock Exchange
+Cyprus - Cyprus Stock Exchange
+Estonia - Tallinn Stock Exchange
+Hungary - Budapest Stock Exchange
+Latvia - Riga Stock Exchange
+Lithuania - Vilnius Stock Exchange
+Montenegro - NEX Stock Exchange
+Poland - NewConnect
+Poland - Warsaw Stock Exchange
+Romania - Bucharest Stock Exchange
+Romania - Sibex Stock Exchange
+Russia - RTS Stock Exchange
+Turkey - Istanbul Stock Exchange
+Bermuda - Bermuda Stock Exchange
+Canada - Canadian Stock Exchange 
+Canada - Montreal Exchange
+Canada - Nasdaq Canada
+USA - American Stock Exchange
+USA - Boston Stock Exchange
+USA - Chicago Stock Exchange
+USA - NASDAQ
+USA - NASDAQ OMX PHLX
+USA - National Stock Exchange
+USA - New York Stock Exchange
+Barbados - Barbados Stock Exchange
+Brazil - Bovespa
+Brazil - BOVMESB
+Chile - Santiago Stock Exchange
+Ecuador - Bolsa de Valores de Quito
+Guyana - Guyana Stock Exchange
+Haiti - Haitian Stock Exchange
+Jamaica - Jamaica Stock Exchange
+Mexico - Bolsa Mexicana de Valores
+Panama - Bolsa de Valores de Panama
+Peru - Bolsa de Valores de Lima
+Azerbaijan - Baku Stock Exchange
+Bangladesh - Dhaka Stock Exchange
+China - Shanghai Futures Exchange
+China - Shanghai Stock Exchange
+China - Shenzhen Stock Exchange
+Georgia - Georgian Stock Exchange
+India - Bangalore Stock Exchange
+India - Bombay Stock Exchange
+India - Calcutta Stock Exchange
+India - Cochin Stock Exchange
+India - OTC Exchange of India
+India - Pune Stock Exchange
+Japan - Fukuoka Stock Exchange
+Japan - Nagoya Stock Exchange
+Japan - Osaka Securities Exchange
+Japan - Tokyo Stock Exchange
+Kyrgyzstan - Kyrgyz Stock Exchange
+Malaysia - Bursa Malaysia
+Maldives - Maldives Stock Exchange
+Mongolia - Mongolian Stock Exchange
+Nepal - Nepal Stock Exchange
+Pakistan - Islamabad Stock Exchange
+Pakistan - Karachi Stock Exchange
+Pakistan - Lahore Stock Exchange
+Singapore - Singapore Exchange
+South Korea - Korea Stock Exchange
+South Korea - KOSDAQ
+Taiwan - Taiwan Stock Exchange
+Uzbekistan - Tashkent Stock Exchange
+Vietnam - Ho Chi Minh Stock Exchange
+Bahrain - Bahrain Stock Exchange
+Iran - Tehran Stock Exchange
+Iraq - Iraq Stock Exchange
+Israel - Tel-Aviv Stock Exchange
+Jordan - Amman Stock Exchange
+Kuwait - Kuwait Stock Exchange
+Oman - Muscat Securities Market
+Saudi Arabia - Saudi Stock Exchange
+Emirates - AbuDhabi Market
+Emirates - Dubai Financial Market
+Botswana - Botswana Stock Exchange
+Cameroon - Douala Stock Exchange
+Ghana - Ghana Stock Exchange
+Kenya - Nairobi Stock Exchange
+Malawi - Malawi Stock Exchange
+Morocco - Casablanca Stock Exchange
+Namibia - Namibian Stock Exchange
+Nigeria - Nigerian Stock Exchange
+Sudan - Khartoum Stock Exchange
+Tunisia - Bourse de Tunis
+Uganda - Uganda Exchange
+Zambia - Lusaka Stock Exchange
+Zimbabwe - Zimbabwe Exchange
+Australia - Bendigo Exchange
+Australia - Sydney Exchange

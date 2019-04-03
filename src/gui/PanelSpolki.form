@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="listaSpolkiLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="listaSpolkiScrollPane" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="dodajSpolkaPrzycisk" alignment="0" pref="185" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="informacjePanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="listaSpolkiLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="listaSpolkiScrollPane" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="dodajSpolkaPrzycisk" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="informacjePanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="dodajSpolkaPrzycisk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dodaj sp&#xf3;&#x142;k&#x119;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dodajSpolkaPrzyciskActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="listaSpolkiScrollPane">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="spolkiList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+            <Property name="inheritsPopupMenu" type="boolean" value="true"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="elements" source="Form" sourcePath="${spolki}" target="spolkiList" targetPath="elements" updateStrategy="0" immediately="false"/>
+            <BindingProperty name="selectedElement" source="Form" sourcePath="${spolka}" target="spolkiList" targetPath="selectedElement" updateStrategy="0" immediately="false">
+              <BindingParameter name="IGNORE_ADJUSTING" value="N"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="valueChanged" listener="javax.swing.event.ListSelectionListener" parameters="javax.swing.event.ListSelectionEvent" handler="spolkiListValueChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="listaSpolkiLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wybierz sp&#xf3;&#x142;k&#x119;:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="informacjePanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="informacjeLabel" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="nazwaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kursAktualnyLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="iloscAkcjiLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="dataWycenyLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kursMinLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kursMaxLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kursOtwarciaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kursMaxLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kapitalZakladowyLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="obrotyLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="wolumenLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="przychodLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="zyskLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="kursAktualnyTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="iloscTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="dataWycenyTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="kursMinTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="kursMaxTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="kursOtwarciaTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="kapitalWlasnyTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="kapitalZakladowyTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="obrotyTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="wolumenTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="przychodTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <Component id="zyskTextField" alignment="1" min="-2" pref="170" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="nazwaTextField" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="usunSpolkaPrzycisk" min="-2" pref="138" max="-2" attributes="0"/>
+                          <Component id="wykupAkcjePrzycisk" min="-2" pref="138" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="informacjeLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="nazwaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nazwaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="iloscAkcjiLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iloscTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dataWycenyTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dataWycenyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kursOtwarciaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kursOtwarciaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kursAktualnyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kursAktualnyTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kursMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kursMinTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kursMaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kursMaxTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kursMaxLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kapitalWlasnyTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kapitalZakladowyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kapitalZakladowyTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="obrotyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="obrotyTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="wolumenLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="wolumenTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="przychodLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="przychodTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="zyskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="zyskTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="wykupAkcjePrzycisk" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="usunSpolkaPrzycisk" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="informacjeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Informacje i edycja:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nazwaTextField">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 20]"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.nazwa}" target="nazwaTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iloscTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[200, 20]"/>
+            </Property>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.akcjeSpolki.ilosc}" target="iloscTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kursAktualnyTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.akcjeSpolki.wartoscAktualna}" target="kursAktualnyTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nazwaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nazwa:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="iloscAkcjiLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ilo&#x15b;&#x107; akcji:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kursAktualnyLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Aktualny kurs:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="dataWycenyLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data wyceny:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dataWycenyTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.dataWyceny}" target="dataWycenyTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kursMinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Min. kurs:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kursMinTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.akcjeSpolki.wartoscMin}" target="kursMinTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kursMaxTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.akcjeSpolki.wartoscMax}" target="kursMaxTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kursMaxTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kursMaxLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Max. kurs:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kursOtwarciaTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.kursOtwarcia}" target="kursOtwarciaTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kursOtwarciaLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kurs otwarcia:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kursMaxLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapita&#x142; w&#x142;asny:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kapitalWlasnyTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.kapitalWlasny}" target="kapitalWlasnyTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kapitalWlasnyTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kapitalZakladowyLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapita&#x142; zak&#x142;adowy:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="kapitalZakladowyTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.kapitalZakladowy}" target="kapitalZakladowyTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kapitalZakladowyTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="obrotyLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Obroty:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="obrotyTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.obroty}" target="obrotyTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="obrotyTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="wolumenTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.wolumen}" target="wolumenTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wolumenTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="wolumenLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wolumen:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="przychodLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Przych&#xf3;d:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="przychodTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.przychod}" target="przychodTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="przychodTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="zyskLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Zysk:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="zyskTextField">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="text" source="Form" sourcePath="${spolka.zysk}" target="zyskTextField" targetPath="text" updateStrategy="0" immediately="false">
+              <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+            </BindingProperty>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zyskTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="usunSpolkaPrzycisk">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usu&#x144; sp&#xf3;&#x142;k&#x119;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="usunSpolkaPrzyciskActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="wykupAkcjePrzycisk">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wykup akcje"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="wykupAkcjePrzyciskActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
